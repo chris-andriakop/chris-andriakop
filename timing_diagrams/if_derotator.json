@@ -1,0 +1,13 @@
+{signal : [
+  {name: 'i_clk', wave:'p..............'},
+  {name: 'i_en', wave: 'lh.............'},
+  {name: 'i_dia', wave: 'l.hl......hl...'},
+  {name: 'i_data_I', wave: 'x.5.......9....',data:['D0 I','D1 I']},
+  {name: 'i_data_Q', wave: 'x.6.......4....',data:['D0 Q','D1 Q']},
+  {},
+  {name: 'rot_I', wave: 'x..=.......=...'},
+  {name: 'rot_Q', wave: 'x..=.......=...'},
+  {name: 'o_doa', wave: 'l...hl......hl.'},
+  {name: 'o_data_I', wave:'x...5.......9..',data:['rot D0 I','rot D1 I']},
+  {name: 'o_data_Q', wave:'x...6.......4..',data:['rot D0 Q','rot D1 Q']}
+]}

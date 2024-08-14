@@ -1,0 +1,14 @@
+{signal: [
+  {node:'....C.......G'},
+  {name: 'i_txtoggle_iq', wave: 'l.h.................',node:'..a.',phase:0.3},
+  {name: 'i_txdata_iq[5:0]', wave:'xx5.......7.......3.',phase:0.45,data:['Freq data_0[5:0]','Freq data_1[5:0]']},
+  {},
+  {},
+  {name: 'txtogle_iq first edge detection', wave:'l..hl...............',node:'...b',phase:-0.15},
+  {name: 'db_gclk', wave: 'p...................',phase:-0.15},
+  {node:'....E.......H'},
+  {name: 'Tx data Freq[5:0]', wave:'x...5.......7.......',data:['Freq data_0[5:0]','Freq data_1[5:0]']},
+  {node:'....D.......F'}
+],
+ edge:['a~b Resynchronization delay', 'C|D','G|F','E+H 8 periods', 'C Tx data sampling' ,'G Tx data sampling']
+}

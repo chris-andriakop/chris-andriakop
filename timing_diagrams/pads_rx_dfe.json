@@ -1,0 +1,10 @@
+{signal: [
+  {name: 'db_clk', wave:'n...............',phase:0.35},
+  {node:'.A.......B'},
+  {name:'o_rx_dfe_data_i[13:0]', wave:'x5.......9......',data:['Rx0 I  [13:0]', 'Rx1 I  [13:0]']},
+  {name:'o_rx_dfe_data_q[13:0]', wave:'x6.......4......',data:['Rx0 Q  [13:0]', 'Rx1 Q  [13:0]']},
+  {name:'o_rx_toggle_iq',wave:'lh...l...h..l...',phase:-0.15},
+  {name:'o_rx_data_valid',wave:'lh..............',phase:-0.15},
+  {name: 'o_rx_data_iq', wave: 'x5...6...9...4..',data:['Rx0 I  [13:0]', 'Rx0 Q  [13:0]','Rx1 I  [13:0]', 'Rx1 Q  [13:0]']}
+],
+ edge:['A+B 8 clock periods']}
