@@ -1,0 +1,12 @@
+{signal : [
+  {name: 'i_clk', wave:'p..............'},
+  {name: 'i_cfg_rate_in',wave:'=..............', data:['0']},
+  {name: 'i_en', wave: 'lh.............'},
+  {name: 'i_dia', wave: 'l.hl......hl...'},
+  {name: 'i_data_I', wave: 'x.5.......9....',data:['D0 I','D1 I']},
+  {name: 'i_data_Q', wave: 'x.6.......4....',data:['D0 Q','D1 Q']},
+  {},
+  {name: 'o_doa', wave: 'l..hl......hl.'},
+  {name: 'o_data_I', wave:'x..5.......9...',data:['LPF1/2 D0 I','LPF1/2 D1 I']},
+  {name: 'o_data_Q', wave:'x..6.......4...',data:['LPF1/2 D0 Q','LPF1/2 D1 Q']}
+]}

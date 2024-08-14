@@ -1,0 +1,13 @@
+{signal : [
+  {name: 'i_clk', wave:'p..................'},
+  {name: 'i_cfg_rate_in',wave:'=..................', data:['1']},
+  {name: 'i_en', wave: 'lh.................'},
+  {name: 'i_dia', wave: 'l..hl..hl..hl..hl..'},
+  {name: 'i_data_I', wave: 'x..5...6...7...5...',data:['D0 I','D1 I','D2 I','D3 I']},
+  {name: 'i_data_Q', wave: 'x..3...4...9...3...',data:['D0 Q','D1 Q','D2 Q','D3 Q']},
+  {},
+  {name: 's_barrel_sr', wave:'=.=.=...=...=...=..',data:['0x0','0x1','0x2','0x4','0x1','0x2']},
+  {name: 'o_doa', wave: 'l...hl..........hl.'},
+  {name: 'o_data_I', wave:'x...5...........5..',data:['LPF8 D0 I','LPF8 D3 I']},
+  {name: 'o_data_Q', wave:'x...3...........3..',data:['LPF8 D0 Q','LPF8 D3 Q']}
+]}
