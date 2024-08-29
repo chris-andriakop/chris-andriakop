@@ -1,0 +1,14 @@
+{signal : [
+  {name: 'i_clk', wave:'p....|.........|....'},
+  {name: 'i_dia', wave:'lh...|.....l...|....'},
+  {name: 'i_data_I', wave:'x====|===xxx...|....'},
+  {name: 'i_data_Q', wave:'x====|===xxx...|....'},
+  {name:'i_rx_end', wave:'l....|.....h...|....'},
+  {name:'div_inputs', wave:'x....|......5.......', data:['Numerators/Denominators']},
+  {name:'div_start', wave:'l....|......hl.|....'},
+  {node:'.............A....B',phase:0.15},
+  {name:'div_done',wave:'l....|.........|..hl'},
+  {name:'o_phi',wave:'x....|.........|..7.'},
+  {name:'o_alpha',wave:'x....|.........|..9.'}
+],
+ edge:['A+B N iterations']}
